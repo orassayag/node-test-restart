@@ -1,6 +1,6 @@
-# Server
+# Node Test Restart
 
-Built in November 2020. Application to check 'forever-monitor' NPM package to restart node application in specific conditions.
+Built in November 2020. Application to check 'forever-monitor' NPM package to restart node in specific conditions.
 
 ## Requirements
 
