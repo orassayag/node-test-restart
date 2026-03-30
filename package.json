@@ -1,10 +1,40 @@
 {
     "name": "node-test-restart",
     "version": "0.1.0",
+    "description": "A Node.js test application demonstrating the forever-monitor NPM package's automatic process restart capabilities",
+    "main": "server.js",
     "private": false,
+    "license": "MIT",
+    "author": {
+        "name": "Or Assayag",
+        "email": "orassayag@gmail.com",
+        "url": "https://github.com/orassayag"
+    },
     "repository": {
         "type": "git",
         "url": "git://github.com/orassayag/node-test-restart.git"
+    },
+    "bugs": {
+        "url": "https://github.com/orassayag/node-test-restart/issues"
+    },
+    "homepage": "https://github.com/orassayag/node-test-restart#readme",
+    "keywords": [
+        "node",
+        "nodejs",
+        "forever",
+        "forever-monitor",
+        "process-restart",
+        "auto-restart",
+        "crash-recovery",
+        "process-management",
+        "restart-on-crash",
+        "monitoring",
+        "http-server",
+        "test",
+        "demo"
+    ],
+    "engines": {
+        "node": ">=8.0.0"
     },
     "scripts": {
         "start": "node src/monitor.js",
