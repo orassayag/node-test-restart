@@ -1,9 +1,11 @@
 {
-	"eslint.validate": [
-		"javascript"
-	],
-	"cSpell.words": [
-		"Assayag",
-		"orassayag"
-	]
+  "eslint.validate": ["javascript"],
+  "cSpell.words": ["Assayag", "orassayag"],
+  "cSpell.ignorePaths": [
+    "coverage",
+    "node_modules",
+    "dist",
+    "pnpm-lock.yaml",
+    "pnpm-workspace.yaml"
+  ]
 }

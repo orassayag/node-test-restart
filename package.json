@@ -1,50 +1,82 @@
 {
-    "name": "node-test-restart",
-    "version": "0.1.0",
-    "description": "A Node.js test application demonstrating the forever-monitor NPM package's automatic process restart capabilities",
-    "main": "server.js",
-    "private": false,
-    "license": "MIT",
-    "author": {
-        "name": "Or Assayag",
-        "email": "orassayag@gmail.com",
-        "url": "https://github.com/orassayag"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/orassayag/node-test-restart.git"
-    },
-    "bugs": {
-        "url": "https://github.com/orassayag/node-test-restart/issues"
-    },
-    "homepage": "https://github.com/orassayag/node-test-restart#readme",
-    "keywords": [
-        "node",
-        "nodejs",
-        "forever",
-        "forever-monitor",
-        "process-restart",
-        "auto-restart",
-        "crash-recovery",
-        "process-management",
-        "restart-on-crash",
-        "monitoring",
-        "http-server",
-        "test",
-        "demo"
-    ],
-    "engines": {
-        "node": ">=8.0.0"
-    },
-    "scripts": {
-        "start": "node src/monitor.js",
-        "stop": "taskkill -f -im node.exe",
-        "debug": "node --inspect-brk server.js"
-    },
-    "dependencies": {
-        "babel-eslint": "^10.1.0",
-        "death": "^1.1.0",
-        "eslint": "^7.12.1",
-        "forever-monitor": "^3.0.1"
+  "name": "node-test-restart",
+  "version": "0.1.0",
+  "private": false,
+  "description": "A Node.js test app demonstrating the forever-monitor NPM package and automatic process restart capabilities through a simple HTTP server that intentionally exits to simulate crashes. Built in November 2020, it shows how forever-monitor detects failures and restarts Node.js processes automatically",
+  "keywords": [
+    "node",
+    "nodejs",
+    "forever",
+    "forever-monitor",
+    "process-restart",
+    "auto-restart",
+    "crash-recovery",
+    "process-management",
+    "restart-on-crash",
+    "monitoring",
+    "http-server",
+    "test",
+    "demo"
+  ],
+  "homepage": "https://github.com/orassayag/node-test-restart#readme",
+  "bugs": {
+    "url": "https://github.com/orassayag/node-test-restart/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/orassayag/node-test-restart.git"
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/orassayag"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Or Assayag",
+    "email": "orassayag@gmail.com",
+    "url": "https://github.com/orassayag"
+  },
+  "contributors": [
+    {
+      "name": "Or Assayag",
+      "email": "orassayag@gmail.com",
+      "url": "https://github.com/orassayag"
     }
+  ],
+  "main": "server.js",
+  "files": [
+    ".github",
+    ".vscode",
+    "src",
+    ".eslintignore",
+    ".eslintrc",
+    ".gitignore",
+    ".jsbeautifyrc",
+    ".npmignore",
+    ".prettierrc",
+    "CHANGELOG.md",
+    "CODE_OF_CONDUCT.md",
+    "CONTRIBUTING.md",
+    "INSTRUCTIONS.md",
+    "LICENSE",
+    "package-lock.json",
+    "package.json",
+    "README.md",
+    "SECURITY.md",
+    "server.js"
+  ],
+  "scripts": {
+    "debug": "node --inspect-brk server.js",
+    "start": "node src/monitor.js",
+    "stop": "taskkill -f -im node.exe"
+  },
+  "dependencies": {
+    "babel-eslint": "^10.1.0",
+    "death": "^1.1.0",
+    "eslint": "^7.12.1",
+    "forever-monitor": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  }
 }

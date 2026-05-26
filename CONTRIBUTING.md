@@ -9,6 +9,7 @@ Everyone is welcome to contribute to this project. Contributing doesn't just mea
 ### Reporting Issues
 
 If you find a bug or have a feature request:
+
 1. Check if the issue already exists in the [GitHub Issues](https://github.com/orassayag/node-test-restart/issues)
 2. If not, create a new issue with:
    - Clear title and description
@@ -32,10 +33,12 @@ If you find a bug or have a feature request:
 ### Code Style Guidelines
 
 This project uses:
+
 - **JavaScript (Node.js)** with ES6+ syntax
 - **ESLint** for code quality
 
 Before submitting:
+
 ```bash
 # Check for linting errors
 npm run lint
@@ -55,6 +58,7 @@ npm start
 ### Adding New Features
 
 When adding new features:
+
 1. Update relevant files in `src/` directory
 2. Test thoroughly with different scenarios
 3. Update documentation (README.md, INSTRUCTIONS.md)
@@ -63,6 +67,7 @@ When adding new features:
 ### Testing
 
 When testing changes:
+
 1. Test the restart functionality with different exit codes
 2. Verify the restart counter works correctly
 3. Test with different max restart limits
@@ -72,9 +77,9 @@ When testing changes:
 
 Please feel free to contact me with any question, comment, pull-request, issue, or any other thing you have in mind.
 
-* Or Assayag <orassayag@gmail.com>
-* GitHub: https://github.com/orassayag
-* StackOverflow: https://stackoverflow.com/users/4442606/or-assayag?tab=profile
-* LinkedIn: https://linkedin.com/in/orassayag
+- Or Assayag <orassayag@gmail.com>
+- GitHub: https://github.com/orassayag
+- StackOverflow: https://stackoverflow.com/users/4442606/or-assayag?tab=profile
+- LinkedIn: https://linkedin.com/in/orassayag
 
 Thank you for contributing! 🙏
