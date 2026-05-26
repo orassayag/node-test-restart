@@ -1,6 +1,6 @@
 {
   "eslint.validate": ["javascript"],
-  "cSpell.words": ["Assayag", "orassayag"],
+  "cSpell.words": ["Assayag", "jsbeautifyrc", "orassayag", "taskkill"],
   "cSpell.ignorePaths": [
     "coverage",
     "node_modules",
